@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+
+    <script src="indexscript.js"></script>
+    <link rel="stylesheet" href="indexstyle.css">
+    
+    <title>Encriptador</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="title">
+            <h1>
+                <img class="logo" id="logoreload" src="sources/logoa.svg" alt="logoalura">
+            </h1>
+        </div>
+    </header>
+    <main class="boxprincipal">
+
+        <div class="divencriptarmensaje">
+            <form class="formulario1">
+                <label for="mensaje"></label>
+                <textarea cols="30" rows="10" id="mensaje" class="input-encriptarmsj" required
+                    placeholder="Ingrese su texto aquí..."></textarea>
+
+                <div class="botonesdivenciptarmensaje">
+
+                    <img class="vector" src="sources/vector.svg" alt="vector advertencia"><p> Solo letras minúsculas y sin acentos.</p><br>
+                    <button type="button" name="botonencriptar" value="Encriptar" class="botonencriptar"
+                        onclick="encriptar()">Encriptar</button>
+                    <button type="button" name="botondesencriptar" value="Desencriptar" class="botondesencriptar"
+                        onclick="desencriptar()">Desencriptar</button>
+                </div>
+            </form>        
+        </div>
+
+        <div id="myDIV" onclick="chauDiv()" class="chauDiv">
+            <img class="muñeco" src="sources/muñeco.svg" alt="muñecoquebusca">
+            <p>Ningún mensaje fue encontrado</p>
+            <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+        </div>
+
+        <div class="divdesencriptarmensaje">
+            <form class="formulario2">
+                <label for="msjencriptado"></label>
+                <textarea cols maxlength="30" rows minlength="10" id="msjencriptado" class="input-desencriptarmsj"
+                    placeholder="..."></textarea>
+                <div class="botonesdivdesenciptarmensaje">
+                    <button type="button" name="botoncopiar" value="Copiar" class="botoncopiar"
+                        onclick="copiarTexto()">Copiar</button>
+                </div>
+            </form>
+        </div>
+
+
+
+    </main>
+
+</body>
+
+<footer>
+    <p class="copyrigth"> &copy B. Ezequiel Duarte Ponce de León 2023</p>
+</footer>
+
+</html>
