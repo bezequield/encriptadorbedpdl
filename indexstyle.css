@@ -58,82 +58,82 @@ body{
     margin: 0px 20px 0px 20px;
     }
 
-    .formulario1{
-        margin: 40px 40px 0px;
-        text-align: center;
+        .formulario1 {
+            margin: 40px 40px 0px;
+            text-align: center;
         }
-
-            .input-encriptarmsj{
+    
+            .input-encriptarmsj {
                 margin: 80px 0 0;
                 font-family: 'Inter';
                 font-style: normal;
-                font-weight: 400; 
+                font-weight: 400;
                 font-size: 32px;
                 line-height: 150%;
-                text-align: left ;
+                text-align: left;
                 /* or 48px */
                 color: #0A3871;
-
+        
                 border: none;
                 background: #E5E5E5;
-                }    
-
-                .botonesdivenciptarmensaje{
-                    position: absolute;
-                    bottom: 72px;
-                    }
-
-                    .botonencriptar{
-                        /* Button */
-                        display: inline;
-
-                        width: 260px;
-                        height: 67px;
-
-                        /* Dark blue/dark-blue-300 */
-
-                        background: #0A3871;
-                        border-radius: 24px;
-                        }   
-
-
-                        .vector{
-                            position: relative;
-                            left: -90px;
-                        }
-                        .botonesdivenciptarmensaje p{
-                                        /* Ningún mensaje fue encontrado */
-                                        
-                                        font-family: 'Inter';
-                                        font-style: normal;
-                                        font-weight: 700;
-                                        font-size: 20px;
-                                        line-height: 120%;
-                                        /* or 29px */
-                                        text-align: center;
-                                        /* Gray/gray-500 */
-                                        color: #343a4096;
-                                        /*Posicion*/
-
-                                        display: inline;
-                                        position: relative;
-                                        top: -1px;
-                                        left: -94px;
-                                        }
-
-
-                        .botondesencriptar{
-                            /* Button */
-                            display: inline;
-
-                            width: 260px;
-                            height: 67px;
-
-                            /* Dark blue/dark-blue-300 */
-
-                            background: #E5E5E5;
-                            border-radius: 24px;
-                            }
+            }
+        
+            .botonesdivenciptarmensaje {
+                position: absolute;
+                bottom: 72px;
+            }
+        
+            .botonencriptar {
+                /* Button */
+                display: inline;
+        
+                width: 260px;
+                height: 67px;
+        
+                /* Dark blue/dark-blue-300 */
+        
+                background: #0A3871;
+                border-radius: 24px;
+            }
+        
+            .vector {
+                position: relative;
+                left: -90px;
+            }
+            
+            /*"Solo letras minúsculas y sin acentos.*/
+            .botonesdivenciptarmensaje p {
+                /* Ningún mensaje fue encontrado */
+        
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 20px;
+                line-height: 120%;
+                /* or 29px */
+                text-align: center;
+                /* Gray/gray-500 */
+                color: #343a4096;
+                /*Posicion*/
+        
+                display: inline;
+                position: relative;
+                top: -1px;
+                left: -94px;
+            }
+        
+            .botondesencriptar {
+                /* Button */
+                display: inline;
+        
+                width: 260px;
+                height: 67px;
+        
+                /* Dark blue/dark-blue-300 */
+        
+                background: #E5E5E5;
+                border-radius: 24px;
+            }
 
 .divdesencriptarmensaje{
     position: absolute;
@@ -201,14 +201,14 @@ body{
     border-radius: 32px;
 }
 
-    .muñeco{
-        position: absolute;
-        position: absolute;
-        top: 243px;
-        right: 32PX;
-        bottom: 0;
-        left: 32PX;
-    }
+        .muñeco{
+            position: absolute;
+            position: absolute;
+            top: 243px;
+            right: 32PX;
+            bottom: 0;
+            left: 32PX;
+        }
 
         div p{
             /* Ningún mensaje fue encontrado */
@@ -260,15 +260,14 @@ footer{
     top: -870px;
 }
 
-footer p{
-    text-align: center;
-}
+    footer p{
+        text-align: center;
+    }
 
 
 
 /*Responsive menos de 768px*/
-
-@media (max-width: 768px){
+@media (max-width: 768px){ 
 
     html{
         height: auto;
@@ -285,43 +284,43 @@ footer p{
         margin: center;        
     }
 
-    .input-encriptarmsj{
-        text-align: center;
-        width: 688px;
-        position: relative;
-        left: -50px;
-    }
+            .input-encriptarmsj{
+                text-align: center;
+                width: 688px;
+                position: relative;
+                left: -50px;
+            }
 
-    
+            
 
-    .botonesdivenciptarmensaje{
-        width: 688px;
-        text-align: center;
-        position: relative;
-        top: 20px;
-        left: -50px;
-    }
+            .botonesdivenciptarmensaje{
+                width: 688px;
+                text-align: center;
+                position: relative;
+                top: 20px;
+                left: -50px;
+            }
 
-    .vector{
-        position: relative;
-        left: -225px;
-    }
+            .vector{
+                position: relative;
+                left: -225px;
+            }
 
-    .botonesdivenciptarmensaje p{
-        font-size: 12px;
-        position: relative;
-        left: -225px;
-    }
-        
-    .botonencriptar{
-        width: 332px;
-        height: 67px;
-    }
+            .botonesdivenciptarmensaje p{
+                font-size: 12px;
+                position: relative;
+                left: -225px;
+            }
+                
+            .botonencriptar{
+                width: 332px;
+                height: 67px;
+            }
 
-    .botondesencriptar{
-        width: 332px;
-        height: 67px;
-    }
+            .botondesencriptar{
+                width: 332px;
+                height: 67px;
+            }
 
     .chauDiv{
         width: 688px;
@@ -332,56 +331,55 @@ footer p{
         left: 40px;
 
         top: 750px;
-        
     }
 
-    .muñeco{
-        display: none;
-    }
+            .muñeco{
+                display: none;
+            }
 
-    div p{
-        /* Ningún mensaje fue encontrado */
-        width: 336px;
-        height: 58px;
+            div p{
+                /* Ningún mensaje fue encontrado */
+                width: 336px;
+                height: 58px;
 
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 25px;
-        line-height: 120%;
-        /* or 29px */
-        text-align: center;
-        /* Gray/gray-500 */
-        color: #343A40;
-        /*Posicion*/
-        position: relative;
-        top: 25%;
-        left: 0px;
-        right: 0px;
-        margin: auto;
-        }
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 25px;
+                line-height: 120%;
+                /* or 29px */
+                text-align: center;
+                /* Gray/gray-500 */
+                color: #343A40;
+                /*Posicion*/
+                position: relative;
+                top: 25%;
+                left: 0px;
+                right: 0px;
+                margin: auto;
+                }
 
-    p:nth-of-type(2){
-        /* Ingresa el texto que desees encriptar o desencriptar. */
-        width: 336px;
-        height: 48px;
+            p:nth-of-type(2){
+                /* Ingresa el texto que desees encriptar o desencriptar. */
+                width: 336px;
+                height: 48px;
 
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 17px;
-        line-height: 150%;
-        /* or 24px */
-        text-align: center;
-        /* Gray/gray-400 */
-        color: #495057;
-        /*Posicion*/
-        position: relative;
-        top: 30%;
-        left: 0px;
-        right: 0px;
-        margin: auto;
-        }
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 17px;
+                line-height: 150%;
+                /* or 24px */
+                text-align: center;
+                /* Gray/gray-400 */
+                color: #495057;
+                /*Posicion*/
+                position: relative;
+                top: 30%;
+                left: 0px;
+                right: 0px;
+                margin: auto;
+                }
 
     .divdesencriptarmensaje{
 
@@ -396,19 +394,20 @@ footer p{
 
     }
 
-    .formulario2 textarea{
-        width: 500px;
-        height: 100px;
-        position: absolute;
-        left: 10px;
+            .formulario2 textarea{
 
-        top: 10px;
-        }
+                width: 500px;
+                height: 100px;
+                position: absolute;
+                left: 89px;
+                top: 15px;
+                text-align: center;
+                }
 
-    .botonesdivdesenciptarmensaje{
-        position: relative;
-        top: 100px;
-    }
+            .botonesdivdesenciptarmensaje{
+                position: relative;
+                top: 100px;
+            }
 
     footer{
         width: 760px;
@@ -417,16 +416,16 @@ footer p{
         top: 75px;
     }
     
-    footer p{
-        text-align: center;
-    }
-    
+            footer p{
+                text-align: center;
+            }
+        
     
 
 }
 
-/*Responsive menos de 375px*/
 
+/*Responsive menos de 375px*/
 @media (max-width: 375px){
 
     html{
@@ -498,53 +497,53 @@ footer p{
         /* display: none; */
         }
 
-    .muñeco{
-        display: none;
-    }
+            .muñeco{
+                display: none;
+            }
 
-    div p{
-        /* Ningún mensaje fue encontrado */
-        width: 336px;
-        height: 58px;
+            div p{
+                /* Ningún mensaje fue encontrado */
+                width: 336px;
+                height: 58px;
 
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 25px;
-        line-height: 120%;
-        /* or 29px */
-        text-align: center;
-        /* Gray/gray-500 */
-        color: #343A40;
-        /*Posicion*/
-        position: relative;
-        top: 25%;
-        left: 0px;
-        right: 0px;
-        margin: auto;
-        }
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 25px;
+                line-height: 120%;
+                /* or 29px */
+                text-align: center;
+                /* Gray/gray-500 */
+                color: #343A40;
+                /*Posicion*/
+                position: relative;
+                top: 25%;
+                left: 0px;
+                right: 0px;
+                margin: auto;
+                }
 
-    p:nth-of-type(2){
-        /* Ingresa el texto que desees encriptar o desencriptar. */
-        width: 336px;
-        height: 48px;
+            p:nth-of-type(2){
+                /* Ingresa el texto que desees encriptar o desencriptar. */
+                width: 336px;
+                height: 48px;
 
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 17px;
-        line-height: 150%;
-        /* or 24px */
-        text-align: center;
-        /* Gray/gray-400 */
-        color: #495057;
-        /*Posicion*/
-        position: relative;
-        top: 30%;
-        left: 0px;
-        right: 0px;
-        margin: auto;
-        }
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 17px;
+                line-height: 150%;
+                /* or 24px */
+                text-align: center;
+                /* Gray/gray-400 */
+                color: #495057;
+                /*Posicion*/
+                position: relative;
+                top: 30%;
+                left: 0px;
+                right: 0px;
+                margin: auto;
+                }
 
     .divdesencriptarmensaje{
 
@@ -558,33 +557,33 @@ footer p{
 
     }
 
-    .formulario2 textarea{
-        width: 300px;
+            .formulario2 textarea{
+                width: 300px;
+                height: 100px;
+                position: absolute;
+                left: 22px;
+                top: 15px;
+                text-align: center;
+                }
+
+            .botonesdivdesenciptarmensaje{
+                width: 343px;
+                position: relative;
+                top: 105px;
+                left: -40px ;
+                text-align: center;
+                }    
+
+                .botoncopiar{
+                    width: 90%;
+                }
+
+    footer{
+        width: 375px;
         height: 100px;
-        position: absolute;
-        left: 22px;
-        top: 10px;
         text-align: center;
-        }
-
-    .botonesdivdesenciptarmensaje{
-        width: 343px;
-        position: relative;
-        top: 105px;
-        left: -40px ;
-        text-align: center;
-        }    
-
-        .botoncopiar{
-            width: 90%;
-        }
-
-        footer{
-            width: 375px;
-            height: 100px;
-            text-align: center;
-            position: relative;   
-            top: 0px;
+        position: relative;   
+        top: 0px;
         }
 
 }
